@@ -132,7 +132,7 @@ jLab1.setText("<HTML> -READ ALOUD OF CONTENT <br> -NEED POWER TO READ <br> -CAN 
 jLab1.setBounds(70, 10, 1000, 120);
 if(e.getSource()== jButton4) {
 	this.dispose();
-	Frame3 c = new Frame3();
+	Purchase c = new Purchase();
 	c.setVisible(true);
 }
 
